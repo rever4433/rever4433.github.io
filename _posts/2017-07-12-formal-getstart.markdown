@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Get start with github.io!"
+title:  "MySQL&#x4E2D;&#x53D8;&#x91CF;&#x7684;&#x7528;&#x6CD5;&#x2014;&#x2014;LeetCode 178. Rank Scores"
 date:   2017-07-12 11:50:00
 categories: main
 ---
@@ -10,25 +10,28 @@ categories: main
  ### Description:
 > Write a SQL query to rank scores. If there is a tie between two scores, both should have the same ranking. Note that after a tie, the next ranking number should be the next consecutive integer value. In other words, there should be no "holes" between ranks.
 >
-| Id | Score |
-|---|---|
+
+| Id| Score|
+|---|------|
 | 1 | 3.50 |
 | 2 | 3.65 |
 | 3 | 4.00 |
 | 4 | 3.85 |
 | 5 | 4.00 |
 | 6 | 3.65 |
+
 For example, given the above Scores
  table, your query should generate the following report (order by highest score):
 >
+
 | Score | Rank |
 |-------|------| 
-|4.00 | 1 |
-| 4.00 | 1 |
-| 3.85 | 2 |
-| 3.65 | 3 |
-| 3.65 | 3 |
-| 3.50 | 4 |
+| 4.00  | 1    |
+| 4.00  | 1    |
+| 3.85  | 2    |
+| 3.65  | 3	   |
+| 3.65  | 3    |
+| 3.50  | 4	   |
 
 &#x8BE5;&#x95EE;&#x9898;&#x8BA9;&#x6211;&#x4EEC;&#x5BF9;Score&#x6DFB;&#x52A0;&#x6743;&#x91CD;&#xFF0C;&#x76F8;&#x540C;&#x7684;&#x503C;&#x6709;&#x76F8;&#x540C;&#x7684;&#x6743;&#x91CD;&#xFF0C;&#x4E14;&#x6743;&#x91CD;&#x662F;&#x8FDE;&#x7EED;&#x7684;&#x6570;&#x5B57;&#x3002;&#x5982;&#x679C;&#x662F;&#x7F16;&#x7A0B;&#x7684;&#x8BDD;&#x80AF;&#x5B9A;&#x5F88;&#x5BB9;&#x6613;&#x89E3;&#x51B3;&#xFF0C;&#x4E0D;&#x8FC7;&#x653E;&#x5230;SQL&#x8BED;&#x53E5;&#x91CC;&#x5C31;&#x4E0D;&#x89C1;&#x5F97;&#x5F88;&#x5BB9;&#x6613;&#x89E3;&#x51B3;&#x4E86;&#x3002;&#x4ECE;&#x601D;&#x8DEF;&#x6765;&#x8BF4;&#xFF0C;&#x8FD9;&#x4E2A;&#x89E3;&#x6CD5;&#x5F88;&#x7B80;&#x5355;&#xFF0C;&#x53EA;&#x8981;&#x5148;&#x5BF9;score&#x6392;&#x5E8F;&#xFF0C;&#x5982;&#x679C;&#x5F53;&#x524D;score&#x7684;&#x503C;&#x6BD4;&#x524D;&#x4E00;&#x4E2A;score&#x7684;&#x503C;&#x5927;&#xFF0C;&#x6743;&#x91CD;&#x5C31;&#x81EA;&#x589E;1&#x3002;&#x5982;&#x679C;&#x4E0D;&#x5927;&#x4E8E;&#x524D;&#x4E00;&#x4E2A;score&#x5C31;&#x4FDD;&#x6301;&#x539F;&#x503C;&#x5982;&#x679C;&#x628A;&#x540E;&#x8FB9;&#x7684;&#x6761;&#x4EF6;&#x5316;&#x7B80;&#xFF0C;&#x6211;&#x4EEC;&#x7684;&#x5DE5;&#x4F5C;&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x7ED9;score&#x6392;&#x5E8F;&#x540E;&#x52A0;&#x4E0A;&#x5E8F;&#x53F7;&#x3002;&#x8FD9;&#x65F6;&#x6211;&#x4EEC;&#x7684;&#x64CD;&#x4F5C;&#x5C31;&#x53D8;&#x5F97;&#x7B80;&#x5355;&#x4E86;&#x3002;
 
