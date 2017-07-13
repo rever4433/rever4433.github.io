@@ -1,10 +1,17 @@
 ---
-layout: default
-title:  "MySQL&#x4E2D;&#x53D8;&#x91CF;&#x7684;&#x7528;&#x6CD5;&#x2014;&#x2014;LeetCode 178. Rank Scores"
-date:   2017-07-12 11:50:00
-categories: main
+layout:     post
+title:      "MySQL中变量的用法——LeetCode 178. Rank Scores"
+date:       2017-07-12 18:00:00
+author:     "Start Bootstrap"
+header-img: "img/post-bg-05.jpg"
 ---
+<<<<<<< HEAD
  ### Description:
+=======
+
+
+### Description:
+>>>>>>> 26a95fe32c3315d9d8ee9de4a085be409c79c76b
 > Write a SQL query to rank scores. If there is a tie between two scores, both should have the same ranking. Note that after a tie, the next ranking number should be the next consecutive integer value. In other words, there should be no "holes" between ranks.
 >
 

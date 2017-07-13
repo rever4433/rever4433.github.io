@@ -1,17 +1,25 @@
-# Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      ""
-paginate:     1
+# Site settings
+title: YAKANG GAO Blog
+header-img: img/home-bg.jpg
+email: your-email@yourdomain.com
+copyright_name: Your/Project/Corporate Name
+description: "Talk is cheap , show me the code."
+baseurl: ""
+url: "https://rever4433.github.io/"
+twitter_username: SBootstrap
+github_username:  davidtmiller
+facebook_username:  StartBootstrap
+email_username:  your-email@yourdomain.com
 
-# About/contact
-author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
 
-# Gems
-gems:
-  - jekyll-paginate
-
-#Others
+# Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
