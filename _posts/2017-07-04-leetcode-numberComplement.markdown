@@ -1,10 +1,11 @@
----
-layout: default
-title:  "LeetCode(476)： Number Complement"
-date:   2017-07-04 17:02:00
-categories: LeetCode
----
 
+---
+layout:     post
+title:      "LeetCode(476)： Number Complement"
+date:       2017-07-04 17:02:00
+author:     "Start Bootstrap"
+header-img: "img/post-bg-05.jpg"
+---
 
 
 ### Description:

@@ -5,9 +5,6 @@ date:       2017-07-12 18:00:00
 author:     "Start Bootstrap"
 header-img: "img/post-bg-05.jpg"
 ---
-<<<<<<< HEAD
- ### Description:
-=======
 
 
 ### Description:
