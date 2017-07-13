@@ -6,19 +6,6 @@ categories: LeetCode
 ---
 
 
-# 在此处输入标题
-
-标签（空格分隔）： 未分类
-
----
-
----
-layout: default
-title:  "LeetCode(476)： Number Complement"
-date:   2017-07-04 17:02:00
-categories: LeetCode
----
-
 
 ### Description:
 
