@@ -1,8 +1,9 @@
 ---
-layout: default
-title:  "MySQL&#x4E2D;&#x53D8;&#x91CF;&#x7684;&#x7528;&#x6CD5;&#x2014;&#x2014;LeetCode 178. Rank Scores"
-date:   2017-07-12 11:50:00
-categories: main
+layout:     post
+title:      "MySQL中变量的用法——LeetCode 178. Rank Scores"
+date:       2017-07-12 18:00:00
+author:     "Start Bootstrap"
+header-img: "img/post-bg-05.jpg"
 ---
 
 
