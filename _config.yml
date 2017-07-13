@@ -1,13 +1,13 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      ""
+title:        YAKANG GAO'S BLOG
+tagline:      Talk is cheap, show me the code.
+baseurl:      "http://rever4433.github.io"
 paginate:     1
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  name:       YAKANG GAO
+  url:        http://gaoyakang.tk
 
 # Gems
 gems:
