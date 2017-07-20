@@ -1,9 +1,9 @@
-
 ---
 layout:     post
 title:      "LeetCode(476)： Number Complement"
+subtitle:    "在解题过程中关于java基础的一些思考"
 date:       2017-07-04 17:02:00
-author:     "Start Bootstrap"
+author:     "YAKANG GAO"
 header-img: "img/post-bg-05.jpg"
 ---
 

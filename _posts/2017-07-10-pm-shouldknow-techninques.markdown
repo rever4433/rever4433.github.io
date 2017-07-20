@@ -1,10 +1,9 @@
-
 ---
 layout:     post
 title:      "每个产品经理都该懂点技术（一）"
-subtitle:   "前后端开发人员都做什么？
+subtitle:   "前后端开发人员都做什么？"
 date:       2017-07-10 15:24:00
-author:     "Start Bootstrap"
+author:     "YAKANG GAO"
 header-img: "img/post-bg-05.jpg"
 ---
 
