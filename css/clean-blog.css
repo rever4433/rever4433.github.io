@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Lora', 'Times New Roman', serif,'微软雅黑';
   font-size: 18px;
   color: #404040;
 }
@@ -23,7 +23,7 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 900;
 }
 a {
   color: #404040;

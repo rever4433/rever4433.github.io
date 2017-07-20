@@ -1,15 +1,15 @@
 # Site settings
-title: YAKANG GAO Blog
+title: YAKANG's Blog
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-copyright_name: Your/Project/Corporate Name
+email: gaoyakang@outlook.com
+copyright_name: YAKANG GAO
 description: "Talk is cheap , show me the code."
 baseurl: ""
 url: "https://rever4433.github.io/"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
+twitter_username: rever4433
+github_username:  rever4433
+facebook_username: rever4433
+email_username:  gaoyakang@outlook.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
