@@ -2,7 +2,7 @@
 layout:     post
 title:      "GitHub Pages Guides官方文档翻译之搭建个人和项目页面"
 subtitle:   "阅读官方文档，简单搭建GitHub Pages页面"
-date:       2017-07-5 10:44:00
+date:       2017-07-25 10:44:00
 author:     "YAKANG GAO"
 header-img: "img/post-bg-05.jpg"
 ---
