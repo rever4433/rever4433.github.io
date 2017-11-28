@@ -1,7 +1,7 @@
 # Site settings
 title: YAKANG's Blog
 header-img: img/home-bg.jpg
-email: gaoyakang@outlook.com
+email: gao2524289@outlook.com
 copyright_name: YAKANG GAO
 description: "Talk is cheap , show me the code."
 baseurl: ""
@@ -9,7 +9,7 @@ url: "https://rever4433.github.io/"
 twitter_username: rever4433
 github_username:  rever4433
 facebook_username: rever4433
-email_username:  gaoyakang@outlook.com
+email_username:  gao2524289@outlook.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID

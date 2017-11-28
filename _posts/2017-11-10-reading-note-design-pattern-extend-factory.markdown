@@ -6,12 +6,12 @@ author:     "YAKANG GAO"
 header-img: "img/post-bg-05.jpg"
 ---
 
-##一、缩小为简单工厂模式
+## 一、缩小为简单工厂模式
 考虑这样一个问题：一个模块仅需要一个工厂类，没有必要把它产生出来，使用静态的方法就可以了。类图如下
 ![image.png](http://upload-images.jianshu.io/upload_images/129905-a211adb5c795c214.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 可以看出简单工厂模式，是把抽象的工厂类变为静态的工厂类，简化了类的创建过程。需要变更的源码仅仅是HumanFactory和NvWa类。之前的笔记中没给出书上的例子，考虑到只写出抽象的工厂方法模式例子不能直观的提现出特点，所以在本篇中给出完整的例子：
-####1. Human类接口
+#### 1. Human类接口
 ```java
 package extendFactoryMethodPattern;
 public interface Human {     
@@ -21,8 +21,8 @@ public interface Human {
 	public void talk(); 
 	}
 ```
-####2. Human类实现
-#####2.1 黑人的实现
+#### 2. Human类实现
+##### 2.1 黑人的实现
 ```java
 package extendFactoryMethodPattern;
 
@@ -37,7 +37,7 @@ public class BlackHuman implements Human {
 }
 
 ```
-#####2.2 白人实现
+##### 2.2 白人实现
 
 ```java
 package extendFactoryMethodPattern;
@@ -52,7 +52,7 @@ public class WhiteHuman implements Human {
 	}
 }
 ```
-#####2.3 黄种人的实现
+##### 2.3 黄种人的实现
 ```java
 package extendFactoryMethodPattern;
 
@@ -66,7 +66,7 @@ public class YellowHuman implements Human {
 	}
 }
 ```
-####3.工厂类(静态的)
+#### 3.工厂类(静态的)
 ```java
 package extendFactoryMethodPattern;
 
@@ -85,7 +85,7 @@ public class HumanFactory {
 	}
 }
 ```
-####4.实现类（女娲）
+#### 4.实现类（女娲）
 ```java
 package extendFactoryMethodPattern;
 
@@ -109,17 +109,17 @@ public class NvWa {
 	}
 }
 ```
-####简单工厂模式的特点
+#### 简单工厂模式的特点
 > 类图和调用都比较简单，所以称为简单工厂模式（Simple Factory Pattern），也叫做静态工厂模式。其缺点是工厂类的扩展比较困难，不符合开闭原则，但它仍然是一个非常实用的设计模式。
 
 ---
 
-##二、升级为多个工厂类
+## 二、升级为多个工厂类
 ![image.png](http://upload-images.jianshu.io/upload_images/129905-fc17d778431d30bf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 每个设计模式都是因为具体的问题而产生的。当我们在做一个比较复杂的项目时，如果实体类很多，并且实体类的属性也很多时，把所有的类放到一个工厂类中进行初始化（初始化不仅是new一个对象，还包括为对象设置初始值）会使工厂类的代码结构变得不清晰。
 为了让代码结构变得清晰，我们就为每个产品定义一个创造者然后由调用者自己去选择与哪个工厂方法关联。对于女娲造人这个例子，我们可以为每个人种单独设置一个工厂。这样符合单一职责原则。
-##1.多工厂模式的抽象工厂类
+## 1.多工厂模式的抽象工厂类
 
 ```java
 public abstract class AbstractHumanFactory{
@@ -127,8 +127,8 @@ public abstract class AbstractHumanFactory{
 }
 ```
 与工厂方法模式的抽象工厂类相比，多工厂模式的抽象工厂类的方法中没有参数，因为工厂的实现类将各自为自己的产品类创建对象。
-####2. 工厂的实现类
-#####2.1 黑人工厂实现
+#### 2. 工厂的实现类
+##### 2.1 黑人工厂实现
 ```java
 public class BlackHumanFactory extends AbstractHumanFactory {     
     public Human createHuman() {            
@@ -136,7 +136,7 @@ public class BlackHumanFactory extends AbstractHumanFactory {
           } 
     }
 ```
-#####2.2 黄种人工厂实现
+##### 2.2 黄种人工厂实现
 ```java
 public class YellowHumanFactory extends AbstractHumanFactory {     
 		public Human createHuman(){             
@@ -144,7 +144,7 @@ public class YellowHumanFactory extends AbstractHumanFactory {
 			} 
 		}
 ```
-#####2.3 白人工厂实现
+##### 2.3 白人工厂实现
 ```java
 public class WhiteHumanFactory extends AbstractHumanFactory {     
 		public Human createHuman(){             
@@ -152,7 +152,7 @@ public class WhiteHumanFactory extends AbstractHumanFactory {
 			} 
 		}
 ```
-####3.场景类
+#### 3.场景类
 ```java
 public class NvWa {
     public static void main(String[] args) {
@@ -177,7 +177,7 @@ public class NvWa {
     }
 }
 ```
-####多工厂模式的优点和缺点
+#### 多工厂模式的优点和缺点
 
 >每一个产品类都对应了一个创建类，好处就是创建
 >类的职责清晰，而且结构简单，但是给可扩展性和可维护性带来了一定的影响。为什么这么
@@ -185,7 +185,7 @@ public class NvWa {
 >因为工厂类和产品类的数量相同，维护时需要考虑两个对象之间的关系。
 
 
-####比较简单工厂模式和多工厂模式
+#### 比较简单工厂模式和多工厂模式
 简单工厂模式，传入工厂的参数是有限制的。如果一旦传入的参数有错误，就不能正确的创建对象。多工厂模式，由于是静态的不需要实例化工厂类，直接调用方法就可以创建需要的对象。
 
 
@@ -196,7 +196,7 @@ public class NvWa {
 
 单例模式的核心要求就是在内存中 只有一个对象，我们可以使用工厂模式替代单例模式。
 
-####创建一个单例类
+#### 创建一个单例类
 
 ```java
 public class Singleton {        
@@ -310,7 +310,7 @@ public class ProductFactory {
 
 > 延迟加载框架是可以扩展的，例如限制某一个产品类的最大实例化数量，可以通过判断 Map中已有的对象数量来实现，这样的处理是非常有意义的，例如JDBC连接数据库，都会 要求设置一个MaxConnections最大连接数量，该数量就是内存中最大实例化的数量。延迟加载还可以用在对象初始化比较复杂的情况下，例如硬件访问，涉及多方面的交互，则可以通过延迟加载降低对象的产生和销毁带来的复杂性。
 
-####总结
+#### 总结
 
 本篇中扩展工厂方法模式一共有四种，分别是简单工厂模式、多工厂模式、替代单例模式和延迟初始化。
 
