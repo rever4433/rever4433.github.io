@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "[Translation]深度学习基础指南"
+title:      "「Translation」深度学习基础指南"
 subtitle:   "“人工智能”这个词每天被到处乱用。你听到开发者们说他们要学习人工智能。你也会听到管理者说他们要把人工智能技术应用他们的服务中。但他们往往并不了解人工智能...."
 date:       2017-11-07 16:57:00
 author:     "YAKANG GAO"

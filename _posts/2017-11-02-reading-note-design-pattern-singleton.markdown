@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "[读书笔记]《设计模式之禅》(一)之单例模式"
+title:      "「读书笔记」《设计模式之禅》(一)之单例模式"
 date:       2017-11-02 10:57:00
 author:     "YAKANG GAO"
 header-img: "img/post-bg-05.jpg"

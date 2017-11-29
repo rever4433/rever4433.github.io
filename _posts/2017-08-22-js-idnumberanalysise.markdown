@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "[javaScript]身份证号信息解析"
+title:      "「javaScript」身份证号信息解析"
 date:       2017-08-22 19:50:00
 author:     "YAKANG GAO"
 header-img: "img/post-bg-05.jpg"

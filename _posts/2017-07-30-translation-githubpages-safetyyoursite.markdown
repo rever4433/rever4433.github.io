@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "[Translation]使用HTTPS让你的GitHub Pages站点更安全"
+title:      "「Translation」使用HTTPS 让你的GitHub Pages 站点更安全"
 date:       2017-07-30 19:50:00
 author:     "YAKANG GAO"
 header-img: "img/post-bg-05.jpg"
