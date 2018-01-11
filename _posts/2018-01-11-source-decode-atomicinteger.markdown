@@ -6,7 +6,7 @@ author:     "YAKANG GAO"
 header-img: "img/post-bg-05.jpg"
 ---
 
-##深入解析Java AtomicInteger原子类型
+## 深入解析Java AtomicInteger原子类型
 
 在进行并发编程的时候我们需要确保程序在被多个线程并发访问时可以得到正确的结果，也就是实现线程安全。线程安全的定义如下：
 
@@ -184,7 +184,7 @@ Unsafe是JDK内部的工具类，主要实现了平台相关的操作。下面�
 
 Unsafe的具体实现跟本篇的目标关联不大，你只要知道这段代码是为了获取value在堆内存中的偏移量就够了。偏移量在AtomicInteger中很重要，原子操作都靠它来实现。
 
-###Value的定义和volatile
+### Value的定义和volatile
 
 AtomicInteger 本身是个整型，所以最重要的属性就是value，我们看看它是如何声明value的
 
@@ -234,6 +234,6 @@ AtomicInteger 中的CAS操作就是```compareAndSet()```，其作用是每次从
 
 没看AtomicInteger  源码之前，我认为其内部是用```synchronized``` 来实现的原子操作。查阅资料后发现```synchronized``` 会影响性能，因为Java中的```synchronized``` 锁是独占锁，虽然可以实现原子操作，但是这种实现方式的并发性能很差。
 
-###总结
+### 总结
 
 总结一下，AtomicInteger 中主要实现了整型的原子操作，防止并发情况下出现异常结果，其内部主要依靠JDK 中的unsafe 类操作内存中的数据来实现的。volatile 修饰符保证了value在内存中其他线程可以看到其值得改变。CAS操作保证了AtomicInteger 可以安全的修改value 的值。
