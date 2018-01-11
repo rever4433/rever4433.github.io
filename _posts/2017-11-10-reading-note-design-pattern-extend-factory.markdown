@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "「读书笔记」《设计模式之禅》(三)之扩展工厂方法模式"
+title:      "「读书笔记」《设计模式之禅》——扩展工厂方法模式"
 date:       2017-11-10 14:20:00
 author:     "YAKANG GAO"
 header-img: "img/post-bg-05.jpg"

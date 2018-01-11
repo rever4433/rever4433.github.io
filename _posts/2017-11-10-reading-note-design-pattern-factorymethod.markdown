@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "「读书笔记」《设计模式之禅》(二)之工厂方法模式"
+title:      "「读书笔记」《设计模式之禅》——工厂方法模式"
 date:       2017-11-10 11:20:00
 author:     "YAKANG GAO"
 header-img: "img/post-bg-05.jpg"

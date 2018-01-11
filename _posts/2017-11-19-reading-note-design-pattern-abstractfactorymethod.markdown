@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "《设计模式之禅》读书笔记(四)之抽象工厂模式"
-date:       2018-01-11 10:20:00
+title:      "「读书笔记」《设计模式之禅》——抽象工厂模式"
+date:       2017-11-19 10:20:00
 author:     "YAKANG GAO"
 header-img: "img/post-bg-05.jpg"
 ---
