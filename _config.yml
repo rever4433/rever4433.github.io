@@ -19,7 +19,7 @@ email_username:  gao2524289@outlook.com
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 5
+paginate: 20
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
