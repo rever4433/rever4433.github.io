@@ -1,3 +1,11 @@
+---
+layout: post
+title: "浅谈ConcurrentHashMap的实现原理及源码"
+date: 2018-02-03 15:01:34
+author: "YAKANG GAO"
+header-img: "img/post-bg-05.jpg"
+---
+
 本文整理自漫画：[什么是 ConcurrentHashMap？ - 小灰的文章 - 知乎](http://zhuanlan.zhihu.com/p/31614308) 。已获得作者授权。
 
 ---

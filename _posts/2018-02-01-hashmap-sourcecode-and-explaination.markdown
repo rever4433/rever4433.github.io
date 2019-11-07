@@ -1,3 +1,11 @@
+---
+layout: post
+title: "浅谈HashMap 的底层原理"
+date: 2018-02-01 16:01:34
+author: "YAKANG GAO"
+header-img: "img/post-bg-05.jpg"
+---
+
 本文整理自漫画：[什么是 HashMap? -小灰的文章](http://zhuanlan.zhihu.com/p/31610616) 。已获得作者授权。
 
 ---
